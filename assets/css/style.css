@@ -1,0 +1,78 @@
+body {
+    background-image: url("../images/white-waves.png");
+    background-repeat: repeat;
+    height: 100%;
+    line-height: 1.5em;
+    color: #41414c;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.navbar {
+    color: #eff0f1;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+footer {
+    width: 100%;
+    background: #666666;
+    color: #8d8d8d;
+    height: 3em;
+    padding: 1em;
+}
+
+a:hover {
+    text-shadow: 0 0 5px #b89fbd;
+    text-decoration: none;
+    color: currentColor;
+}
+a {
+    color:inherit; 
+}
+
+
+#about-me {
+    border: red 2px solid;
+    margin-top: 75px;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+#profile-shot{
+    border-radius: 50%;
+    height: 15em;
+}
+
+
+#portcard{
+    height: 16em;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    overflow: auto;
+}
+
+#portfolio {
+    border: red 2px solid;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.carousel {
+    border: red 2 px solid;
+}
+
+
+#contact {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+    color: #41414c;
+    font-size: 7em;
+}
