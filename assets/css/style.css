@@ -17,6 +17,11 @@ body {
     z-index: 2;
 }
 
+h5 {
+    color: #41414c;
+}
+
+
 footer {
     width: 100%;
     background: #666666;
@@ -46,26 +51,42 @@ a {
 #profile-shot{
     border-radius: 50%;
     height: 15em;
+    border: 10px solid #b89fbd;
 }
 
 
 #portcard{
-    height: 16em;
+    max-height: 16em;
     overflow-x: hidden;
     overflow-y: scroll;
     overflow: auto;
 }
 
 #portfolio {
-    border: red 2px solid;
     padding: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
-.carousel {
-    border: red 2 px solid;
+.card-header {
+    background: #b89fbd;
+    color: white;
 }
+
+#caro {
+    border: 5px solid #b89fbd;
+    padding: 0;
+}
+
+.carousel-indicators li, .carousel-control-next, .carousel-control-prev {
+    background-color: rgba(26, 1, 51, 0.80) !important;
+    background-blend-mode: color;
+}
+
+/* .carousel-indicators li {
+    text-shadow: 0 0 5px #ddbde4;
+    box-shadow: 0 0 5px #ddbde4;
+} */
 
 
 #contact {
